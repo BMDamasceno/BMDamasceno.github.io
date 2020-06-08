@@ -1,0 +1,16 @@
+body {
+    padding: 0px;
+    background-color: #66CCFF;
+    font-family: sans-serif;
+    /* background-image: url(./assets/doc/1.png); */
+
+}
+
+#container{
+    display: flex;
+    justify-content: flex;
+    /* display: table;
+    margin: 0 auto; */
+    
+}
+

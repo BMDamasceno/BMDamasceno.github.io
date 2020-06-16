@@ -19,9 +19,9 @@ class UI {
     const row = document.createElement('tr');
 
     row.innerHTML = `
-      <td>${todo.atividade}</td>
-      <td>${todo.hora}</td>
-      <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+      <td class="texto-corpo">${todo.atividade}</td>
+      <td class="texto-corpo">${todo.hora}</td>
+      <td class="texto-corpo"><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
     `;
     list.appendChild(row);
   }

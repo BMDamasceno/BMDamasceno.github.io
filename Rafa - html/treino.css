@@ -1,0 +1,67 @@
+.img {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 125px;
+  width: 100px
+}
+
+.Titulo {
+	margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.opcao1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.opcao2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 110px;
+  margin-left: 20px;
+  width: 50px
+}
+
+.home {
+  display: flex;
+  margin-top: 160px;
+  width: 50px
+}
+
+
+.clipboard {
+  display: flex;
+  margin-left: 0px;
+  width: 50px
+}
+/**
+.clok {
+  display: flex;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 50px
+  }
+
+.calendar {
+  display: flex;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 50px
+  }
+/**

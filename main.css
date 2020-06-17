@@ -1,0 +1,75 @@
+/* Fontes de texto usadas */
+.texto-logo{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 3rem;
+    color: #6b748f;
+
+}
+
+.texto-corpo{
+    font-family: 'Open Sans', sans-serif;
+    color: #4f5d86;
+}
+
+.text-titulo{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    color: #4f5d86;
+}
+
+/* Cores usadas
+Roxo mais escuro: #6b748f
+#4f5d86 melhor pra enxergar
+Lilás: #ccc6ff
+Azul clarinho/turquesa: #aeeeff
+Azul bem bem clarinho: #c3edf4
+*/
+.background-degrade{
+    background: linear-gradient(#d4cfff, #caedf5) fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.box-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+;
+}
+
+.btn{
+    background-color: white;
+    color: #6b748f;
+    border: 1px solid #6b748f;
+    transition-duration: 0.4s;
+    width: 10rem;
+    height: 1.5rem;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: #6b748f;
+    color: white;
+    border: 1px solid #6b748f;
+}
+
+.table{
+    display: table;
+    table-layout: fixed;
+    width: 90%;
+    justify-content: space-between;
+}

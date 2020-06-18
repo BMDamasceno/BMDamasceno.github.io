@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.listaElementos {
+    list-style-type: none;
+}
+
+.imgs {
+  /* display: flex;
+  margin-top: 40px;
+  margin-left: 125px; */
+  display: block;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.texto-logo{
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 3rem;
+  color: #6b748f;
+}

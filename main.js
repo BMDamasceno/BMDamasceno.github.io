@@ -1,6 +1,6 @@
 // Todo Class: Representa uma atividade
 class Todo {
-  constructor(atividade,  ) {
+  constructor(atividade, hora) {
     this.atividade = atividade;
     this.hora = hora;
   }
@@ -21,7 +21,7 @@ class UI {
     row.innerHTML = `
       <td class="texto-corpo">${todo.atividade}</td>
       <td class="texto-corpo">${todo.hora}</td>
-      <td class="texto-corpo"><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+      <td class="texto-corpo"><a href="#" class="btn1 btn-danger btn-sm delete">X</a></td>
     `;
     list.appendChild(row);
   }

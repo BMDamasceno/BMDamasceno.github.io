@@ -10,3 +10,9 @@
 .boxed {
     border: 1px solid green ;
   }
+
+.rectangle{
+    width:200px;
+    height:100px;
+    background:blue;
+}

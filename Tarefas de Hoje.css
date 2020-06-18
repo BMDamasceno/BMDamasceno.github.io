@@ -1,0 +1,12 @@
+.Center{
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.boxed {
+    border: 1px solid green ;
+  }

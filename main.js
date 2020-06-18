@@ -21,7 +21,7 @@ class UI {
     row.innerHTML = `
       <td class="texto-corpo">${todo.atividade}</td>
       <td class="texto-corpo">${todo.hora}</td>
-      <td class="texto-corpo"><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+      <td class="texto-corpo"><a href="#" class="btn1 btn-danger btn-sm delete">X</a></td>
     `;
     list.appendChild(row);
   }
@@ -63,7 +63,7 @@ class Store {
   static addTodo(todo) {
     const atividades = Store.getAtividades();
     atividades.push(todo);
-    localStorage.setItem('boks', JSON.stringify(atividades));
+    localStorage.setItem('atividades', JSON.stringify(atividades));
   }
 
   static removeTodo(atividade) {

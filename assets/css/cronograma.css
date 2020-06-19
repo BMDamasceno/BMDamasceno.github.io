@@ -1,12 +1,12 @@
 .cronograma{
-  width: 100%;
+  max-width: 100%;
 }
 
 .atividade-hora{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
   padding-right: 3%;
   padding-left: 5%;
   line-height: 0.5rem;

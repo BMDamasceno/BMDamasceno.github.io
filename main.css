@@ -10,6 +10,11 @@
     color: #4f5d86;
 }
 
+.secao-titulo{
+    font-size: 3rem;
+    text-align: center;
+}
+
 .text-titulo{
     font-family:'Roboto', sans-serif;
     font-weight: bold;

@@ -7,6 +7,9 @@
     align-self: center;
 }
 
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
 .texto-corpo{
     font-family: 'Open Sans', sans-serif;
     color: #4f5d86;

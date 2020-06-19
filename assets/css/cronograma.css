@@ -1,30 +1,15 @@
-* {
-  box-sizing: border-box;
+.cronograma{
+  width: 100%;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 75%;
-}
-
-.right {
-  width: 25%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.listaElementos {
-    list-style-type: none;
+.atividade-hora{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 3%;
+  padding-left: 5%;
+  line-height: 0.5rem;
+  background-color: white;
 }
 

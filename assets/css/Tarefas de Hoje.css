@@ -10,6 +10,9 @@
 .rectangle{
     width:200px;
     height:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background:white;
 }
 
@@ -21,14 +24,14 @@
 
 #first {
     float: left;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 25px;
+    margin-top: 47px;
     width: 50px;
     height: 50px;
 }
 #second {
     float: left;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 50px;
     width: 200px;
     height: 50px;

@@ -4,11 +4,16 @@
     font-size: 3.5rem;
     color: #6b748f;
     margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .texto-corpo{
     font-family: 'Open Sans', sans-serif;
     color: #4f5d86;
+}
+
+.alinhar{
+    text-align: center;
 }
 
 .secao-titulo{
@@ -20,6 +25,7 @@
     font-family:'Roboto', sans-serif;
     font-weight: bold;
     color: #4f5d86;
+    margin-top: 1rem;
 }
 
 /* Cores usadas
@@ -58,7 +64,7 @@ Azul bem bem clarinho: #c3edf4
 
 .form-body{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     padding: 5%;
 }

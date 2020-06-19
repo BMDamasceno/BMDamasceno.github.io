@@ -19,9 +19,9 @@ class UI {
     const row = document.createElement('tr');
 
     row.innerHTML = `
-      <td class="texto-corpo">${todo.atividade}</td>
-      <td class="texto-corpo">${todo.hora}</td>
-      <td class="texto-corpo"><a href="#" class="btn1 btn-danger btn-sm delete">X</a></td>
+      <td class="texto-corpo alinhar">${todo.atividade}</td>
+      <td class="texto-corpo alinhar">${todo.hora}</td>
+      <td class="texto-corpo alinhar"><a href="#" class="btn1 btn-danger btn-sm delete">X</a></td>
     `;
     list.appendChild(row);
   }
@@ -63,7 +63,7 @@ class Store {
   static addTodo(todo) {
     const atividades = Store.getAtividades();
     atividades.push(todo);
-    localStorage.setItem('atividades', JSON.stringify(atividades));
+    localStorage.setItem('atividadesbug', JSON.stringify(atividades));
   }
 
   static removeTodo(atividade) {

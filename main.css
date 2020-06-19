@@ -1,8 +1,9 @@
 /* Fontes de texto usadas */
 .texto-logo{
     font-family: 'Mr Dafoe', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #6b748f;
+    margin-top: 2rem;
 }
 
 .texto-corpo{
@@ -32,6 +33,7 @@ Azul bem bem clarinho: #c3edf4
     background: linear-gradient(#d4cfff, #caedf5) fixed;
     min-width: 100%;
     min-height: 100%;
+    margin-left: 0;
 }
 
 .menu-inferior{

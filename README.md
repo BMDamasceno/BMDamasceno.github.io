@@ -7,4 +7,4 @@ Daniel Costa,
 Guilherme Augusto,
 Rafael Ribeiro.
 
-Para ir até a página inicial clique em: https://bmdamasceno.github.io/telaInicial.html
+Para ir até a página inicial copie e cole o link a seguir no navegador: https://bmdamasceno.github.io/telaInicial.html

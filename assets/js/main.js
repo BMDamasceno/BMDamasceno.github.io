@@ -63,7 +63,7 @@ class Store {
   static addTodo(todo) {
     const atividades = Store.getAtividades();
     atividades.push(todo);
-    localStorage.setItem('atividades', JSON.stringify(atividades));
+    localStorage.setItem('bug_proposital', JSON.stringify(atividades));
   }
 
   static removeTodo(atividade) {
